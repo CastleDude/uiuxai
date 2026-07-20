@@ -4,13 +4,76 @@
 
 @layer base {
   body {
-    @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+    @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100 antialiased;
     font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  ::selection {
+    @apply bg-brand-200 dark:bg-brand-800 text-brand-900 dark:text-brand-100;
+  }
+
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
   }
 }
 
 @layer components {
   .container-site {
     @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Glass card effect */
+  .glass-card {
+    @apply bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border border-white/20 dark:border-gray-800/50;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-500 via-purple-500 to-pink-500;
+  }
+
+  /* Soft shadow hover */
+  .card-hover {
+    @apply transition-all duration-300;
+  }
+  .card-hover:hover {
+    @apply -translate-y-1 shadow-lg shadow-gray-200/50 dark:shadow-black/30;
+  }
+
+  /* Section gradient */
+  .section-alt {
+    @apply bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-950;
+  }
+
+  /* Pill badge */
+  .pill {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  /* Gradient border card */
+  .gradient-border {
+    position: relative;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899) border-box;
+    border: 1px solid transparent;
+  }
+  .dark .gradient-border {
+    background: linear-gradient(#111827, #111827) padding-box,
+                linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899) border-box;
+  }
+}
+
+@layer utilities {
+  /* Animated gradient */
+  .bg-gradient-animated {
+    background: linear-gradient(-45deg, #3b82f6, #8b5cf6, #ec4899, #f59e0b);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
   }
 }

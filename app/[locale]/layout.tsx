@@ -10,6 +10,7 @@ import "../globals.css";
 export const metadata: Metadata = {
   title: { default: "UX.AI.Tools", template: "%s | UX.AI.Tools" },
   description: "UI/UX设计师的AI工具决策引擎 — AI Tool Decision Engine for UI/UX Designers",
+  icons: { icon: "/logos/perplexity.svg" },
 };
 
 export function generateStaticParams() {
@@ -30,6 +31,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
