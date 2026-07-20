@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "首页",
+    "tools": "工具库",
+    "guides": "对比指南",
+    "workflows": "工作流",
+    "updates": "更新动态",
+    "about": "关于"
+  },
+  "home": {
+    "hero_title": "UI/UX设计师的AI工具决策引擎",
+    "hero_subtitle": "按工作流查找最适合你的AI设计工具",
+    "hero_search": "搜索工具...",
+    "featured": "热门推荐",
+    "categories": "按工作流浏览",
+    "new_arrivals": "最新收录",
+    "featured_guides": "精选指南",
+    "view_all": "查看全部"
+  },
+  "tools": {
+    "all": "全部工具",
+    "filter_category": "分类",
+    "filter_pricing": "费用模式",
+    "sort_by": "排序",
+    "sort_rating": "按评分",
+    "sort_newest": "按最新",
+    "sort_featured": "按推荐",
+    "free": "免费",
+    "paid": "付费",
+    "freemium": "免费增值",
+    "open_source": "开源",
+    "free_trial": "免费试用"
+  },
+  "detail": {
+    "features": "核心功能",
+    "scenarios": "适用场景",
+    "pros_cons": "优劣势对比",
+    "pros": "优势",
+    "cons": "劣势",
+    "pricing": "价格方案",
+    "free": "免费版",
+    "paid": "付费版",
+    "enterprise": "企业版",
+    "alternatives": "替代工具",
+    "related": "相关推荐",
+    "visit": "访问官网"
+  },
+  "common": {
+    "breadcrumb_home": "首页",
+    "breadcrumb_tools": "工具库",
+    "loading": "加载中..."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "guides": "Guides",
+    "workflows": "Workflows",
+    "updates": "Updates",
+    "about": "About"
+  },
+  "home": {
+    "hero_title": "AI Tool Decision Engine for UI/UX Designers",
+    "hero_subtitle": "Find the best AI design tools organized by your workflow",
+    "hero_search": "Search tools...",
+    "featured": "Featured",
+    "categories": "Browse by Workflow",
+    "new_arrivals": "New Arrivals",
+    "featured_guides": "Featured Guides",
+    "view_all": "View All"
+  },
+  "tools": {
+    "all": "All Tools",
+    "filter_category": "Category",
+    "filter_pricing": "Pricing",
+    "sort_by": "Sort",
+    "sort_rating": "By Rating",
+    "sort_newest": "Newest",
+    "sort_featured": "Featured",
+    "free": "Free",
+    "paid": "Paid",
+    "freemium": "Freemium",
+    "open_source": "Open Source",
+    "free_trial": "Free Trial"
+  },
+  "detail": {
+    "features": "Core Features",
+    "scenarios": "Use Cases",
+    "pros_cons": "Pros & Cons",
+    "pros": "Pros",
+    "cons": "Cons",
+    "pricing": "Pricing",
+    "free": "Free",
+    "paid": "Paid",
+    "enterprise": "Enterprise",
+    "alternatives": "Alternatives",
+    "related": "Related Tools",
+    "visit": "Visit Website"
+  },
+  "common": {
+    "breadcrumb_home": "Home",
+    "breadcrumb_tools": "Tools",
+    "loading": "Loading..."
+  }
+}
