@@ -52,22 +52,6 @@ export default function Hero({
           </div>
         </div>
 
-        <div className="mt-12 flex justify-center gap-8 text-white/60 text-sm animate-fade-in">
-          <div>
-            <span className="block text-2xl font-bold text-white">20+</span>
-            {locale === "zh" ? "精选工具" : "Tools"}
-          </div>
-          <div className="w-px bg-white/20" />
-          <div>
-            <span className="block text-2xl font-bold text-white">6</span>
-            {locale === "zh" ? "工作流分类" : "Categories"}
-          </div>
-          <div className="w-px bg-white/20" />
-          <div>
-            <span className="block text-2xl font-bold text-white">{locale === "zh" ? "中英" : "ZH/EN"}</span>
-            {locale === "zh" ? "双语" : "Bilingual"}
-          </div>
-        </div>
       </div>
     </section>
   );
