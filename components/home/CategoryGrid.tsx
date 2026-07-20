@@ -16,7 +16,7 @@ export default function CategoryGrid({
         return (
           <Link
             key={cat.id}
-            href={`/${locale}/tools/${cat.id}`}
+            href={`/${locale}/tools/category/${cat.id}`}
             className="flex items-start gap-4 p-5 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all bg-white dark:bg-gray-900"
           >
             <span className="text-3xl">{cat.icon}</span>

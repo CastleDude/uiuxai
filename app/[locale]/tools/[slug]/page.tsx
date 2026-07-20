@@ -99,7 +99,7 @@ export default async function ToolDetailPage({
           { label: common("breadcrumb_tools"), href: `/${locale}/tools` },
           {
             label: cat?.name || tool.category,
-            href: `/${locale}/tools/${tool.category}`,
+            href: `/${locale}/tools/category/${tool.category}`,
           },
           { label: tool.name },
         ]}
