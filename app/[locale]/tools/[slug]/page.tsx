@@ -61,8 +61,38 @@ export default async function ToolDetailPage({
     .filter((t) => t.id !== slug)
     .slice(0, 4);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: tool.name,
+    description: tool.tagline,
+    url: tool.website_url,
+    applicationCategory: "DesignApplication",
+    offers: {
+      "@type": "Offer",
+      price:
+        tool.pricing.free && tool.pricing.free !== ""
+          ? "0"
+          : tool.pricing.paid || "0",
+      priceCurrency: "USD",
+    },
+    aggregateRating: tool.rating
+      ? {
+          "@type": "AggregateRating",
+          ratingValue: tool.rating,
+          bestRating: "5",
+          reviewCount: "1",
+        }
+      : undefined,
+    operatingSystem: "Web",
+  };
+
   return (
     <div className="container-site py-8 max-w-4xl">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Breadcrumb
         items={[
           { label: common("breadcrumb_home"), href: `/${locale}` },
