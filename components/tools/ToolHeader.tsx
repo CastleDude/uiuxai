@@ -1,3 +1,5 @@
+"use client";
+
 import type { Tool } from "@/lib/types";
 import TagBadge from "@/components/shared/TagBadge";
 import Rating from "@/components/shared/Rating";
