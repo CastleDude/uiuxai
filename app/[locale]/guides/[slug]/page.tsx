@@ -19,7 +19,8 @@ export async function generateMetadata({
   if (!guide) return {};
   return {
     title: locale === "zh" ? guide.title : guide.title_en || guide.title,
-    description: locale === "zh" ? guide.excerpt : guide.excerpt_en || guide.excerpt,
+    description:
+      locale === "zh" ? guide.excerpt : guide.excerpt_en || guide.excerpt,
   };
 }
 
@@ -39,18 +40,8 @@ export default async function GuideDetailPage({
     );
   }
 
-  const title = locale === "zh" ? guide.title : guide.title_en || guide.title;
-
-  // Dynamic MDX import
-  let Content: React.ComponentType | null = null;
-  try {
-    const mdxModule = await import(
-      `@/content/guides/${locale}/${slug}.mdx`
-    ).catch(() => null);
-    if (mdxModule) Content = mdxModule.default;
-  } catch {
-    Content = null;
-  }
+  const title =
+    locale === "zh" ? guide.title : guide.title_en || guide.title;
 
   return (
     <div className="container-site py-8 max-w-4xl">
@@ -59,15 +50,18 @@ export default async function GuideDetailPage({
           {title}
         </h1>
         <p className="text-gray-500 dark:text-gray-400 mb-8">
-          {locale === "zh" ? guide.excerpt : guide.excerpt_en || guide.excerpt}
+          {locale === "zh"
+            ? guide.excerpt
+            : guide.excerpt_en || guide.excerpt}
         </p>
-        {Content ? (
-          <Content />
-        ) : (
-          <p className="text-gray-500 dark:text-gray-400 py-12 text-center">
-            {locale === "zh" ? "内容即将上线" : "Content coming soon"}
+
+        <div className="p-8 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900 text-center">
+          <p className="text-gray-500 dark:text-gray-400">
+            {locale === "zh"
+              ? "📝 深度对比内容正在编写中，敬请期待。"
+              : "📝 In-depth comparison content coming soon."}
           </p>
-        )}
+        </div>
       </article>
     </div>
   );

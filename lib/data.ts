@@ -5,36 +5,32 @@ import guidesData from "@/data/guides.json";
 import workflowsData from "@/data/workflows.json";
 import updatesData from "@/data/updates.json";
 
-function pick<T extends Record<string, unknown>>(
-  obj: T,
-  locale: string,
-  keys: string[]
-): T {
-  if (locale === "en") {
-    const result = { ...obj };
-    for (const k of keys) {
-      const enKey = `${k}_en` as keyof T;
-      if (enKey in obj) (result as Record<string, unknown>)[k] = obj[enKey];
-    }
-    return result;
-  }
-  return obj;
-}
 
 export function localizeTool(t: Tool, locale: string): Tool {
-  return pick(t, locale, [
-    "name",
-    "tagline",
-    "description",
-    "features",
-    "pros",
-    "cons",
-    "pricing",
-  ]) as Tool;
+  if (locale === "en") {
+    return {
+      ...t,
+      name: t.name_en || t.name,
+      tagline: t.tagline_en || t.tagline,
+      description: t.description_en || t.description,
+      features: t.features_en?.length ? t.features_en : t.features,
+      pros: t.pros_en?.length ? t.pros_en : t.pros,
+      cons: t.cons_en?.length ? t.cons_en : t.cons,
+      pricing: t.pricing_en?.free ? t.pricing_en : t.pricing,
+    };
+  }
+  return t;
 }
 
 export function localizeCategory(c: Category, locale: string): Category {
-  return pick(c, locale, ["name", "description"]) as Category;
+  if (locale === "en") {
+    return {
+      ...c,
+      name: c.name_en || c.name,
+      description: c.description_en || c.description,
+    };
+  }
+  return c;
 }
 
 export function getCategories(locale: string = "zh"): Category[] {

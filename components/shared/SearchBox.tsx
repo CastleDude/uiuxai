@@ -9,7 +9,7 @@ export default function SearchBox({
   placeholder: string;
   onSearch: (q: string) => void;
 }) {
-  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+  const timerRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     clearTimeout(timerRef.current);

@@ -19,7 +19,8 @@ export async function generateMetadata({
   if (!wf) return {};
   return {
     title: locale === "zh" ? wf.title : wf.title_en || wf.title,
-    description: locale === "zh" ? wf.excerpt : wf.excerpt_en || wf.excerpt,
+    description:
+      locale === "zh" ? wf.excerpt : wf.excerpt_en || wf.excerpt,
   };
 }
 
@@ -41,34 +42,26 @@ export default async function WorkflowDetailPage({
 
   const title = locale === "zh" ? wf.title : wf.title_en || wf.title;
 
-  let Content: React.ComponentType | null = null;
-  try {
-    const mdxModule = await import(
-      `@/content/workflows/${locale}/${slug}.mdx`
-    ).catch(() => null);
-    if (mdxModule) Content = mdxModule.default;
-  } catch {
-    Content = null;
-  }
-
   return (
     <div className="container-site py-8 max-w-4xl">
       <article className="prose dark:prose-invert max-w-none">
         <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
           {title}
         </h1>
-        <p className="text-gray-500 dark:text-gray-400 mb-8">
+        <p className="text-gray-500 dark:text-gray-400 mb-4">
           {locale === "zh" ? wf.excerpt : wf.excerpt_en || wf.excerpt}
-          {" · "}
+        </p>
+        <p className="text-sm text-gray-400 mb-8">
           {wf.steps} {locale === "zh" ? "个步骤" : "steps"}
         </p>
-        {Content ? (
-          <Content />
-        ) : (
-          <p className="text-gray-500 dark:text-gray-400 py-12 text-center">
-            {locale === "zh" ? "内容即将上线" : "Content coming soon"}
+
+        <div className="p-8 rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900 text-center">
+          <p className="text-gray-500 dark:text-gray-400">
+            {locale === "zh"
+              ? "📝 详细工作流方案正在编写中，敬请期待。"
+              : "📝 Detailed workflow content coming soon."}
           </p>
-        )}
+        </div>
       </article>
     </div>
   );
