@@ -1,22 +1,1585 @@
 [
-  {"id":"perplexity","name":"Perplexity","name_en":"Perplexity","logo":"/logos/perplexity.png","tagline":"AI驱动的竞品调研搜索","tagline_en":"AI-powered competitive research search","description":"Perplexity 是 AI 搜索引擎，设计师可以用它快速进行竞品调研、设计趋势分析和用户研究资料整理。","description_en":"Perplexity is an AI search engine designers use for competitive research, trend analysis, and user research compilation.","category":"inspiration","tags":["free","free-trial","paid"],"features":[{"title":"AI搜索","description":"自然语言搜索，自动汇总多源信息"},{"title":"引用溯源","description":"每条回答附带来源链接"},{"title":"对话式交互","description":"支持追问和深入探索"}],"features_en":[{"title":"AI Search","description":"Natural language search with multi-source summaries"},{"title":"Source Citation","description":"Every answer with source links"},{"title":"Conversational","description":"Follow-up questions and deep dives"}],"pros":["搜索质量高","有免费版","支持中文"],"pros_en":["High search quality","Free tier available","Chinese support"],"cons":["付费版较贵","非设计专用"],"cons_en":["Paid tier expensive","Not design-specific"],"pricing":{"free":"免费版（有限搜索）","paid":"$20/月 Pro","enterprise":"定制报价"},"pricing_en":{"free":"Free (limited)","paid":"$20/mo Pro","enterprise":"Custom"},"website_url":"https://www.perplexity.ai","alternatives":[],"rating":4.7,"is_featured":true,"is_new":false,"created_at":"2026-07-01","updated_at":"2026-07-20"},
-  {"id":"ux-pilot","name":"UX Pilot","name_en":"UX Pilot","logo":"/logos/ux-pilot.png","tagline":"AI UX研究助手","tagline_en":"AI UX Research Assistant","description":"UX Pilot 是一款 AI 驱动的 UX 研究工具，帮助设计师自动分析用户反馈、生成研究报告和设计建议。","description_en":"UX Pilot is an AI-powered UX research tool that auto-analyzes user feedback and generates research reports and design recommendations.","category":"inspiration","tags":["paid","free-trial"],"features":[{"title":"反馈分析","description":"自动分析用户评论和反馈"},{"title":"报告生成","description":"一键生成UX研究报告"},{"title":"建议输出","description":"基于分析给出设计建议"}],"features_en":[{"title":"Feedback Analysis","description":"Auto-analyze user comments and feedback"},{"title":"Report Generation","description":"One-click UX research reports"},{"title":"Recommendations","description":"Design suggestions based on analysis"}],"pros":["专注UX场景","节省大量时间"],"pros_en":["UX-focused","Saves significant time"],"cons":["价格较高","学习曲线"],"cons_en":["Higher price","Learning curve"],"pricing":{"free":"","paid":"$39/月","enterprise":"定制"},"pricing_en":{"free":"","paid":"$39/mo","enterprise":"Custom"},"website_url":"https://uxpilot.ai","alternatives":[],"rating":4.2,"is_featured":false,"is_new":true,"created_at":"2026-07-15","updated_at":"2026-07-20"},
-  {"id":"figma-ai","name":"Figma AI","name_en":"Figma AI","logo":"/logos/figma-ai.png","tagline":"Figma官方AI能力","tagline_en":"Official Figma AI features","description":"Figma AI 是 Figma 内置的 AI 功能集，包括 AI 生成设计、自动布局、内容填充等，直接嵌入设计师日常工作流。","description_en":"Figma AI is Figma's built-in AI feature set including AI generation, auto-layout, content fill, integrated directly into daily design workflows.","category":"ui-design","tags":["paid","free-trial","featured"],"features":[{"title":"AI生成","description":"文字描述生成UI元素和页面"},{"title":"智能填充","description":"自动生成真实内容替代占位文本"},{"title":"图层重命名","description":"AI自动语义化命名图层"}],"features_en":[{"title":"AI Generation","description":"Generate UI elements from text descriptions"},{"title":"Smart Fill","description":"Auto-generate real content to replace placeholders"},{"title":"Layer Rename","description":"AI semantic layer naming"}],"pros":["原生集成Figma","工作流无缝","更新快"],"pros_en":["Native Figma integration","Seamless workflow","Fast updates"],"cons":["需Figma订阅","AI功能有限"],"cons_en":["Requires Figma subscription","Limited AI features"],"pricing":{"free":"","paid":"含在Figma订阅中","enterprise":"企业版"},"pricing_en":{"free":"","paid":"Included in Figma sub","enterprise":"Enterprise"},"website_url":"https://www.figma.com/ai","alternatives":["galileo-ai","uizard"],"rating":4.3,"is_featured":true,"is_new":false,"created_at":"2026-07-01","updated_at":"2026-07-20"},
-  {"id":"mastergo-ai","name":"MasterGo AI","name_en":"MasterGo AI","logo":"/logos/mastergo-ai.png","tagline":"企业级AI设计系统","tagline_en":"Enterprise AI design system","description":"MasterGo AI 是国内企业级设计协作平台，集成 AI 能力支持界面生成、设计系统管理和团队协作。","description_en":"MasterGo AI is a Chinese enterprise design platform with integrated AI for interface generation, design system management, and team collaboration.","category":"ui-design","tags":["free","paid"],"features":[{"title":"界面生成","description":"AI辅助快速生成界面"},{"title":"设计系统","description":"企业级设计系统管理"},{"title":"团队协作","description":"多人实时协作"}],"features_en":[{"title":"UI Generation","description":"AI-assisted rapid interface generation"},{"title":"Design System","description":"Enterprise design system management"},{"title":"Collaboration","description":"Real-time team collaboration"}],"pros":["国内访问快","免费可用","中文友好"],"pros_en":["Fast in China","Free tier","Chinese-friendly"],"cons":["国际影响力有限","AI功能正在完善"],"cons_en":["Limited global presence","AI features evolving"],"pricing":{"free":"免费版","paid":"团队版 ¥199/月","enterprise":"企业定制"},"pricing_en":{"free":"Free","paid":"Team ¥199/mo","enterprise":"Custom"},"website_url":"https://mastergo.com","alternatives":[],"rating":4.1,"is_featured":false,"is_new":false,"created_at":"2026-07-05","updated_at":"2026-07-20"},
-  {"id":"recraft","name":"Recraft","name_en":"Recraft","logo":"/logos/recraft.png","tagline":"SVG矢量艺术生成","tagline_en":"SVG vector art generation","description":"Recraft 是一款 AI 矢量图形生成工具，专为品牌和设计资产创作优化，支持生成可编辑的 SVG 矢量图。","description_en":"Recraft generates AI vector graphics optimized for brand and design asset creation, supporting editable SVG output.","category":"ui-design","tags":["free","paid"],"features":[{"title":"SVG生成","description":"AI生成可编辑矢量图形"},{"title":"风格一致","description":"保持品牌风格统一"},{"title":"多种导出","description":"支持SVG/PNG/PDF等格式"}],"features_en":[{"title":"SVG Generation","description":"AI-generated editable vector graphics"},{"title":"Style Consistency","description":"Maintain brand style consistency"},{"title":"Multi-format","description":"Export SVG/PNG/PDF formats"}],"pros":["输出可编辑","免费额度多","风格控制好"],"pros_en":["Editable output","Generous free tier","Good style control"],"cons":["生成速度较慢","复杂图形质量不稳定"],"cons_en":["Slower generation","Inconsistent with complex graphics"],"pricing":{"free":"每日50次免费","paid":"$10/月起","enterprise":"定制"},"pricing_en":{"free":"50 free/day","paid":"From $10/mo","enterprise":"Custom"},"website_url":"https://www.recraft.ai","alternatives":[],"rating":4.4,"is_featured":true,"is_new":true,"created_at":"2026-07-18","updated_at":"2026-07-20"},
-  {"id":"adobe-firefly","name":"Adobe Firefly","name_en":"Adobe Firefly","logo":"/logos/adobe-firefly.png","tagline":"Adobe创意AI生成工具","tagline_en":"Adobe creative AI generation","description":"Adobe Firefly 是 Adobe 的创意生成 AI，支持文字生成图像、矢量重着色、生成式填充等功能，与 Creative Cloud 深度集成。","description_en":"Adobe Firefly is Adobe's creative generative AI supporting text-to-image, vector recoloring, generative fill, deeply integrated with Creative Cloud.","category":"ui-design","tags":["free","paid"],"features":[{"title":"文字生图","description":"自然语言描述生成图像"},{"title":"生成式填充","description":"智能扩展和填充图像"},{"title":"矢量着色","description":"AI驱动的矢量图形配色"}],"features_en":[{"title":"Text to Image","description":"Generate images from natural language"},{"title":"Generative Fill","description":"Smart image expansion and fill"},{"title":"Vector Recolor","description":"AI-driven vector color schemes"}],"pros":["Adobe生态集成","商用安全","质量高"],"pros_en":["Adobe ecosystem","Commercial safe","High quality"],"cons":["需要Creative Cloud","中文支持一般"],"cons_en":["Requires Creative Cloud","Limited Chinese support"],"pricing":{"free":"免费额度（每月25点）","paid":"$4.99/月 Premium","enterprise":"企业版"},"pricing_en":{"free":"Free (25 credits/mo)","paid":"$4.99/mo Premium","enterprise":"Enterprise"},"website_url":"https://firefly.adobe.com","alternatives":[],"rating":4.5,"is_featured":true,"is_new":false,"created_at":"2026-07-03","updated_at":"2026-07-20"},
-  {"id":"midjourney","name":"Midjourney v7","name_en":"Midjourney v7","logo":"/logos/midjourney.png","tagline":"概念可视化与艺术生成","tagline_en":"Concept visualization and art generation","description":"Midjourney 是最主流的 AI 图像生成工具，设计师用它进行概念探索、情绪板制作和视觉风格实验。","description_en":"Midjourney is the leading AI image generation tool designers use for concept exploration, mood board creation, and visual style experiments.","category":"ui-design","tags":["paid"],"features":[{"title":"高质量出图","description":"目前图片质量最高的AI工具之一"},{"title":"风格多样","description":"支持多种艺术风格和参数调优"},{"title":"概念探索","description":"快速可视化设计想法"}],"features_en":[{"title":"High Quality","description":"Among the highest quality AI image tools"},{"title":"Style Variety","description":"Multiple art styles and parameter tuning"},{"title":"Concept Exploration","description":"Quickly visualize design ideas"}],"pros":["图片质量极高","社区活跃","风格控制精细"],"pros_en":["Exceptional image quality","Active community","Fine style control"],"cons":["仅有付费版","需Discord使用","无中文界面"],"cons_en":["Paid only","Requires Discord","No Chinese UI"],"pricing":{"free":"","paid":"$10/月起","enterprise":"$60/月 Pro"},"pricing_en":{"free":"","paid":"From $10/mo","enterprise":"$60/mo Pro"},"website_url":"https://www.midjourney.com","alternatives":["adobe-firefly"],"rating":4.8,"is_featured":true,"is_new":false,"created_at":"2026-07-01","updated_at":"2026-07-20"},
-  {"id":"galileo-ai","name":"Galileo AI","name_en":"Galileo AI","logo":"/logos/galileo-ai.png","tagline":"从文字描述生成高保真UI设计稿","tagline_en":"Generate high-fidelity UI designs from text descriptions","description":"Galileo AI 是一款基于 AI 的 UI 生成工具，输入自然语言描述即可快速生成高保真设计稿。适合产品经理和设计师快速验证想法。","description_en":"Galileo AI generates high-fidelity UI designs from natural language prompts. Great for PMs and designers to quickly validate ideas.","category":"prototyping","tags":["free-trial","paid","featured"],"features":[{"title":"文字转UI","description":"支持自然语言描述生成完整界面"},{"title":"组件库","description":"内置丰富的UI组件"},{"title":"导出","description":"支持导出到Figma"}],"features_en":[{"title":"Text to UI","description":"Generate full interfaces from natural language"},{"title":"Component Library","description":"Rich built-in UI components"},{"title":"Export","description":"Export to Figma"}],"pros":["生成速度快","UI质量高","易上手"],"pros_en":["Fast generation","High UI quality","Easy to learn"],"cons":["免费额度有限","定制化不足"],"cons_en":["Limited free quota","Limited customization"],"pricing":{"free":"每月5次免费","paid":"$16/月无限","enterprise":"按需定制"},"pricing_en":{"free":"5 free/month","paid":"$16/mo unlimited","enterprise":"Custom pricing"},"website_url":"https://www.usegalileo.ai","alternatives":["uizard","framer-ai"],"rating":4.5,"is_featured":true,"is_new":false,"created_at":"2026-07-01","updated_at":"2026-07-20"},
-  {"id":"uizard","name":"Uizard","name_en":"Uizard","logo":"/logos/uizard.png","tagline":"草图/截图一键转原型","tagline_en":"Turn sketches/screenshots into prototypes","description":"Uizard 可以将手绘草图或截图自动转换为可编辑的数字原型，支持 AI 生成主题和组件。","description_en":"Uizard auto-converts hand-drawn sketches or screenshots into editable digital prototypes with AI-generated themes and components.","category":"prototyping","tags":["free","paid"],"features":[{"title":"草图识别","description":"上传手绘草图自动转UI"},{"title":"截图转原型","description":"上传竞品截图自动生成可编辑版本"},{"title":"主题生成","description":"AI自动生成配色和样式"}],"features_en":[{"title":"Sketch Recognition","description":"Upload sketches, auto-convert to UI"},{"title":"Screenshot to Proto","description":"Upload screenshots, generate editable versions"},{"title":"Theme Generation","description":"AI auto-generates color schemes and styles"}],"pros":["草图识别出色","上手极快"],"pros_en":["Excellent sketch recognition","Very easy to learn"],"cons":["高保真输出有限","复杂交互支持弱"],"cons_en":["Limited high-fidelity output","Weak complex interaction support"],"pricing":{"free":"免费版（有限项目）","paid":"$12/月起","enterprise":"定制"},"pricing_en":{"free":"Free (limited projects)","paid":"From $12/mo","enterprise":"Custom"},"website_url":"https://uizard.io","alternatives":["galileo-ai","framer-ai"],"rating":4.3,"is_featured":true,"is_new":false,"created_at":"2026-07-02","updated_at":"2026-07-20"},
-  {"id":"framer-ai","name":"Framer AI","name_en":"Framer AI","logo":"/logos/framer-ai.png","tagline":"AI交互原型与网站生成","tagline_en":"AI interactive prototype and website generation","description":"Framer AI 可以根据文字描述快速生成交互式网站和原型，内置强大的动画和交互能力。","description_en":"Framer AI quickly generates interactive websites and prototypes from text descriptions with powerful built-in animation and interaction capabilities.","category":"prototyping","tags":["free","paid"],"features":[{"title":"AI建站","description":"文字描述生成完整网站"},{"title":"交互动效","description":"强大的动画和交互编辑器"},{"title":"CMS集成","description":"内置内容管理系统"}],"features_en":[{"title":"AI Site Builder","description":"Generate complete sites from text"},{"title":"Interactive Animation","description":"Powerful animation and interaction editor"},{"title":"CMS","description":"Built-in content management"}],"pros":["交互能力强","可发布上线","免费版可用"],"pros_en":["Strong interactivity","Can publish live","Free tier available"],"cons":["学习曲线陡","SEO不如传统方案"],"cons_en":["Steep learning curve","SEO weaker than traditional"],"pricing":{"free":"免费版","paid":"$5/月起","enterprise":"$25/月 Pro"},"pricing_en":{"free":"Free","paid":"From $5/mo","enterprise":"$25/mo Pro"},"website_url":"https://www.framer.com/ai","alternatives":["galileo-ai","uizard"],"rating":4.4,"is_featured":false,"is_new":false,"created_at":"2026-07-02","updated_at":"2026-07-20"},
-  {"id":"figma-make","name":"Figma Make","name_en":"Figma Make","logo":"/logos/figma-make.png","tagline":"对话式原型生成","tagline_en":"Conversational prototype generation","description":"Figma Make 是 Figma 推出的对话式 AI 原型生成功能，通过与 AI 对话逐步创建和完善设计原型。","description_en":"Figma Make is Figma's conversational AI prototype feature that creates and refines design prototypes through AI dialogue.","category":"prototyping","tags":["paid"],"features":[{"title":"对话生成","description":"通过聊天方式创建原型"},{"title":"迭代优化","description":"逐步对话完善设计"},{"title":"Figma集成","description":"直接在Figma中使用"}],"features_en":[{"title":"Chat Generation","description":"Create prototypes through chat"},{"title":"Iterative Refinement","description":"Refine designs through dialogue"},{"title":"Figma Integration","description":"Use directly in Figma"}],"pros":["交互方式自然","Figma原生","持续迭代"],"pros_en":["Natural interaction","Figma native","Continuous iteration"],"cons":["仅限Figma付费用户","仍处于早期"],"cons_en":["Figma paid users only","Still early stage"],"pricing":{"free":"","paid":"含在Figma订阅","enterprise":"企业版"},"pricing_en":{"free":"","paid":"In Figma subscription","enterprise":"Enterprise"},"website_url":"https://www.figma.com/make","alternatives":["galileo-ai"],"rating":4.0,"is_featured":false,"is_new":true,"created_at":"2026-07-19","updated_at":"2026-07-20"},
-  {"id":"anima-ai","name":"Anima AI","name_en":"Anima AI","logo":"/logos/anima-ai.png","tagline":"Figma设计稿一键转React/Vue代码","tagline_en":"Turn Figma designs into React/Vue code","description":"Anima AI 可以将 Figma 设计稿自动转换为 React、Vue 或 HTML 代码，大幅减少前端开发时间。","description_en":"Anima AI auto-converts Figma designs to React, Vue, or HTML code, dramatically reducing frontend development time.","category":"code","tags":["free-trial","paid"],"features":[{"title":"Figma转代码","description":"设计稿自动生成前端代码"},{"title":"多框架支持","description":"React/Vue/HTML/Next.js"},{"title":"响应式","description":"自动适配不同屏幕尺寸"}],"features_en":[{"title":"Figma to Code","description":"Auto-generate frontend code from designs"},{"title":"Multi-framework","description":"React/Vue/HTML/Next.js"},{"title":"Responsive","description":"Auto-adapt to screen sizes"}],"pros":["代码质量较高","框架支持全","更新快"],"pros_en":["Good code quality","Full framework support","Fast updates"],"cons":["复杂组件转换不佳","价格偏高"],"cons_en":["Poor with complex components","Higher price"],"pricing":{"free":"","paid":"$39/月起","enterprise":"定制"},"pricing_en":{"free":"","paid":"From $39/mo","enterprise":"Custom"},"website_url":"https://www.animaapp.com","alternatives":["codify-ai","pixso-ai"],"rating":4.2,"is_featured":false,"is_new":false,"created_at":"2026-07-04","updated_at":"2026-07-20"},
-  {"id":"codify-ai","name":"Codify AI","name_en":"Codify AI","logo":"/logos/codify-ai.png","tagline":"多格式AI设计稿转代码","tagline_en":"Multi-format AI design-to-code","description":"Codify AI 支持将设计稿转换为多种前端框架代码，并提供可视化编辑器和组件库。","description_en":"Codify AI converts designs to multiple frontend framework codes with a visual editor and component library.","category":"code","tags":["paid","free-trial"],"features":[{"title":"多格式输出","description":"支持React/Vue/Svelte等"},{"title":"可视化编辑","description":"所见即所得代码编辑器"},{"title":"组件库","description":"内置常用组件模板"}],"features_en":[{"title":"Multi-format Output","description":"React/Vue/Svelte support"},{"title":"Visual Editor","description":"WYSIWYG code editor"},{"title":"Component Library","description":"Built-in common component templates"}],"pros":["格式多样","有可视化编辑器"],"pros_en":["Format variety","Visual editor"],"cons":["价格较高","中文支持一般"],"cons_en":["Higher price","Limited Chinese support"],"pricing":{"free":"","paid":"$29/月起","enterprise":"定制"},"pricing_en":{"free":"","paid":"From $29/mo","enterprise":"Custom"},"website_url":"https://codifyai.com","alternatives":["anima-ai"],"rating":4.0,"is_featured":false,"is_new":true,"created_at":"2026-07-17","updated_at":"2026-07-20"},
-  {"id":"pixso-ai","name":"Pixso AI","name_en":"Pixso AI","logo":"/logos/pixso-ai.png","tagline":"国产设计协作+AI转代码","tagline_en":"Chinese design collaboration + AI to code","description":"Pixso 是国内一站式设计协作平台，集成 AI 设计稿转代码功能，支持前端、iOS、Android 多端输出。","description_en":"Pixso is a Chinese all-in-one design collaboration platform with AI design-to-code for web, iOS, and Android.","category":"code","tags":["free","paid"],"features":[{"title":"设计协作","description":"完整的在线设计工具"},{"title":"AI转代码","description":"设计稿自动生成多端代码"},{"title":"标注切图","description":"自动标注和资源导出"}],"features_en":[{"title":"Design Collaboration","description":"Full online design tool"},{"title":"AI to Code","description":"Auto-generate multi-platform code"},{"title":"Spec & Export","description":"Auto spec and asset export"}],"pros":["国内访问快","免费版功能全","协作功能好"],"pros_en":["Fast in China","Free tier comprehensive","Good collaboration"],"cons":["国际化弱","AI功能待完善"],"cons_en":["Weak internationalization","AI features evolving"],"pricing":{"free":"免费版","paid":"团队版 ¥199/年","enterprise":"企业版"},"pricing_en":{"free":"Free","paid":"Team ¥199/yr","enterprise":"Enterprise"},"website_url":"https://pixso.cn","alternatives":["anima-ai"],"rating":4.1,"is_featured":false,"is_new":false,"created_at":"2026-07-05","updated_at":"2026-07-20"},
-  {"id":"v0","name":"v0","name_en":"v0 by Vercel","logo":"/logos/v0.png","tagline":"Vercel出品的AI UI生成工具","tagline_en":"AI UI generation by Vercel","description":"v0 是 Vercel 推出的 AI UI 生成工具，通过自然语言描述即可生成基于 shadcn/ui 的 React 组件代码。","description_en":"v0 by Vercel generates React component code with shadcn/ui from natural language descriptions.","category":"code","tags":["free","paid"],"features":[{"title":"文字生成UI","description":"自然语言描述直接生成组件"},{"title":"shadcn/ui","description":"基于开源组件库"},{"title":"直接复制代码","description":"一键复制到项目中"}],"features_en":[{"title":"Text to UI","description":"Generate components from natural language"},{"title":"shadcn/ui","description":"Based on open-source component library"},{"title":"Copy Code","description":"One-click copy to project"}],"pros":["代码质量高","开源组件","免费使用"],"pros_en":["High code quality","Open-source components","Free to use"],"cons":["仅支持React","需Vercel账号"],"cons_en":["React only","Requires Vercel account"],"pricing":{"free":"免费版","paid":"$20/月","enterprise":"定制"},"pricing_en":{"free":"Free","paid":"$20/mo","enterprise":"Custom"},"website_url":"https://v0.dev","alternatives":["anima-ai","codify-ai"],"rating":4.6,"is_featured":true,"is_new":false,"created_at":"2026-07-01","updated_at":"2026-07-20"},
-  {"id":"onbeacon-ai","name":"onbeacon AI","name_en":"onbeacon AI","logo":"/logos/onbeacon-ai.png","tagline":"UX体验自动评估","tagline_en":"Automated UX experience evaluation","description":"onbeacon AI 可以自动对网页和应用进行 UX 体验评估，生成可用性报告和改进建议。","description_en":"onbeacon AI auto-evaluates UX experience for websites and apps, generating usability reports and improvement suggestions.","category":"review","tags":["paid","free-trial"],"features":[{"title":"自动评估","description":"AI自动检测UX问题"},{"title":"报告生成","description":"详细的可用性分析报告"},{"title":"改进建议","description":"基于最佳实践的优化方案"}],"features_en":[{"title":"Auto Evaluation","description":"AI auto-detects UX issues"},{"title":"Report Generation","description":"Detailed usability analysis reports"},{"title":"Suggestions","description":"Optimization based on best practices"}],"pros":["评估自动化","报告详尽"],"pros_en":["Automated evaluation","Detailed reports"],"cons":["价格较高","偏向Web端"],"cons_en":["Higher price","Web-focused"],"pricing":{"free":"","paid":"$49/月起","enterprise":"定制"},"pricing_en":{"free":"","paid":"From $49/mo","enterprise":"Custom"},"website_url":"https://onbeacon.ai","alternatives":["stark"],"rating":4.0,"is_featured":false,"is_new":true,"created_at":"2026-07-16","updated_at":"2026-07-20"},
-  {"id":"stark","name":"Stark","name_en":"Stark","logo":"/logos/stark.png","tagline":"设计系统与可访问性检测","tagline_en":"Design system & accessibility checker","description":"Stark 是集成在 Figma 中的可访问性检测工具，帮助设计师确保设计符合 WCAG 无障碍标准。","description_en":"Stark is a Figma-integrated accessibility checker that helps designers ensure WCAG compliance in their designs.","category":"review","tags":["free","paid"],"features":[{"title":"对比度检测","description":"自动检测颜色对比度"},{"title":"色盲模拟","description":"模拟多种色觉障碍"},{"title":"焦点顺序","description":"检查键盘导航顺序"}],"features_en":[{"title":"Contrast Check","description":"Auto-check color contrast"},{"title":"Color Blind Sim","description":"Simulate various color vision deficiencies"},{"title":"Focus Order","description":"Check keyboard navigation order"}],"pros":["Figma原生集成","免费版功能全面","标准权威"],"pros_en":["Native Figma integration","Comprehensive free tier","Authoritative standards"],"cons":["仅限Figma","高级功能付费"],"cons_en":["Figma only","Premium features paid"],"pricing":{"free":"免费版","paid":"$15/月起","enterprise":"定制"},"pricing_en":{"free":"Free","paid":"From $15/mo","enterprise":"Custom"},"website_url":"https://www.getstark.co","alternatives":["onbeacon-ai"],"rating":4.4,"is_featured":true,"is_new":false,"created_at":"2026-07-03","updated_at":"2026-07-20"},
-  {"id":"tokens-studio","name":"Tokens Studio","name_en":"Tokens Studio","logo":"/logos/tokens-studio.png","tagline":"Figma设计令牌管理","tagline_en":"Figma design token management","description":"Tokens Studio 是 Figma 中管理设计令牌的插件，支持将设计变量同步到代码仓库。","description_en":"Tokens Studio manages design tokens in Figma, syncing design variables to code repositories.","category":"design-system","tags":["free","paid"],"features":[{"title":"令牌管理","description":"可视化编辑设计令牌"},{"title":"多平台同步","description":"同步到GitHub/GitLab等"},{"title":"主题切换","description":"管理多套主题和模式"}],"features_en":[{"title":"Token Management","description":"Visual design token editing"},{"title":"Multi-platform Sync","description":"Sync to GitHub/GitLab etc."},{"title":"Theme Switching","description":"Manage multiple themes and modes"}],"pros":["设计开发协同","开源免费版","社区活跃"],"pros_en":["Design-dev collaboration","Open-source free tier","Active community"],"cons":["学习曲线陡","仅限Figma"],"cons_en":["Steep learning curve","Figma only"],"pricing":{"free":"免费版","paid":"$6/月 Pro","enterprise":"定制"},"pricing_en":{"free":"Free","paid":"$6/mo Pro","enterprise":"Custom"},"website_url":"https://tokens.studio","alternatives":[],"rating":4.3,"is_featured":false,"is_new":false,"created_at":"2026-07-05","updated_at":"2026-07-20"},
-  {"id":"penpot","name":"Penpot","name_en":"Penpot","logo":"/logos/penpot.png","tagline":"开源设计平台","tagline_en":"Open-source design platform","description":"Penpot 是开源的设计和原型平台，支持 SVG 原生格式，适合注重开源和隐私的设计团队。","description_en":"Penpot is an open-source design and prototyping platform with native SVG support, ideal for teams prioritizing open-source and privacy.","category":"design-system","tags":["free","open-source"],"features":[{"title":"开源自由","description":"完全开源，可自托管"},{"title":"SVG原生","description":"原生SVG格式，代码友好"},{"title":"协作","description":"多人实时协作"}],"features_en":[{"title":"Open Source","description":"Fully open-source, self-hostable"},{"title":"SVG Native","description":"Native SVG format, code-friendly"},{"title":"Collaboration","description":"Real-time multi-user collaboration"}],"pros":["完全开源","可自托管","免费"],"pros_en":["Fully open-source","Self-hostable","Free"],"cons":["生态较小","性能待优化"],"cons_en":["Small ecosystem","Performance needs work"],"pricing":{"free":"完全免费","paid":"","enterprise":""},"pricing_en":{"free":"Completely free","paid":"","enterprise":""},"website_url":"https://penpot.app","alternatives":[],"rating":4.1,"is_featured":false,"is_new":false,"created_at":"2026-07-06","updated_at":"2026-07-20"},
-  {"id":"magician","name":"Magician","name_en":"Magician","logo":"/logos/magician.png","tagline":"Figma AI设计工具箱","tagline_en":"Figma AI design toolkit","description":"Magician 是 Figma 中的 AI 设计工具插件，提供自动生成图标、文案、图片等设计资源的能力。","description_en":"Magician is an AI design toolkit Figma plugin that auto-generates icons, copy, images, and other design assets.","category":"design-system","tags":["free-trial","paid"],"features":[{"title":"图标生成","description":"AI生成自定义图标"},{"title":"文案撰写","description":"自动生成UI文案"},{"title":"图片编辑","description":"AI图片处理和生成"}],"features_en":[{"title":"Icon Generation","description":"AI-generated custom icons"},{"title":"Copy Writing","description":"Auto-generate UI copy"},{"title":"Image Editing","description":"AI image processing and generation"}],"pros":["Figma集成好","省时高效"],"pros_en":["Good Figma integration","Time-saving"],"cons":["需Figma付费","功能较为零散"],"cons_en":["Requires Figma paid","Features fragmented"],"pricing":{"free":"","paid":"$9/月起","enterprise":"定制"},"pricing_en":{"free":"","paid":"From $9/mo","enterprise":"Custom"},"website_url":"https://magician.design","alternatives":[],"rating":4.0,"is_featured":false,"is_new":false,"created_at":"2026-07-07","updated_at":"2026-07-20"}
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "name_en": "Perplexity",
+    "logo": "/logos/perplexity.svg",
+    "tagline": "AI驱动的竞品调研搜索",
+    "tagline_en": "AI-powered competitive research search",
+    "description": "Perplexity 是 AI 搜索引擎，设计师可以用它快速进行竞品调研、设计趋势分析和用户研究资料整理。",
+    "description_en": "Perplexity is an AI search engine designers use for competitive research, trend analysis, and user research compilation.",
+    "category": "inspiration",
+    "tags": [
+      "free",
+      "free-trial",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "AI搜索",
+        "description": "自然语言搜索，自动汇总多源信息"
+      },
+      {
+        "title": "引用溯源",
+        "description": "每条回答附带来源链接"
+      },
+      {
+        "title": "对话式交互",
+        "description": "支持追问和深入探索"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "AI Search",
+        "description": "Natural language search with multi-source summaries"
+      },
+      {
+        "title": "Source Citation",
+        "description": "Every answer with source links"
+      },
+      {
+        "title": "Conversational",
+        "description": "Follow-up questions and deep dives"
+      }
+    ],
+    "pros": [
+      "搜索质量高",
+      "有免费版",
+      "支持中文"
+    ],
+    "pros_en": [
+      "High search quality",
+      "Free tier available",
+      "Chinese support"
+    ],
+    "cons": [
+      "付费版较贵",
+      "非设计专用"
+    ],
+    "cons_en": [
+      "Paid tier expensive",
+      "Not design-specific"
+    ],
+    "pricing": {
+      "free": "免费版（有限搜索）",
+      "paid": "$20/月 Pro",
+      "enterprise": "定制报价"
+    },
+    "pricing_en": {
+      "free": "Free (limited)",
+      "paid": "$20/mo Pro",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://www.perplexity.ai",
+    "alternatives": [],
+    "rating": 4.7,
+    "is_featured": true,
+    "is_new": false,
+    "created_at": "2026-07-01",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "ux-pilot",
+    "name": "UX Pilot",
+    "name_en": "UX Pilot",
+    "logo": "/logos/ux-pilot.svg",
+    "tagline": "AI UX研究助手",
+    "tagline_en": "AI UX Research Assistant",
+    "description": "UX Pilot 是一款 AI 驱动的 UX 研究工具，帮助设计师自动分析用户反馈、生成研究报告和设计建议。",
+    "description_en": "UX Pilot is an AI-powered UX research tool that auto-analyzes user feedback and generates research reports and design recommendations.",
+    "category": "inspiration",
+    "tags": [
+      "paid",
+      "free-trial"
+    ],
+    "features": [
+      {
+        "title": "反馈分析",
+        "description": "自动分析用户评论和反馈"
+      },
+      {
+        "title": "报告生成",
+        "description": "一键生成UX研究报告"
+      },
+      {
+        "title": "建议输出",
+        "description": "基于分析给出设计建议"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Feedback Analysis",
+        "description": "Auto-analyze user comments and feedback"
+      },
+      {
+        "title": "Report Generation",
+        "description": "One-click UX research reports"
+      },
+      {
+        "title": "Recommendations",
+        "description": "Design suggestions based on analysis"
+      }
+    ],
+    "pros": [
+      "专注UX场景",
+      "节省大量时间"
+    ],
+    "pros_en": [
+      "UX-focused",
+      "Saves significant time"
+    ],
+    "cons": [
+      "价格较高",
+      "学习曲线"
+    ],
+    "cons_en": [
+      "Higher price",
+      "Learning curve"
+    ],
+    "pricing": {
+      "free": "",
+      "paid": "$39/月",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "",
+      "paid": "$39/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://uxpilot.ai",
+    "alternatives": [],
+    "rating": 4.2,
+    "is_featured": false,
+    "is_new": true,
+    "created_at": "2026-07-15",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "figma-ai",
+    "name": "Figma AI",
+    "name_en": "Figma AI",
+    "logo": "/logos/figma-ai.svg",
+    "tagline": "Figma官方AI能力",
+    "tagline_en": "Official Figma AI features",
+    "description": "Figma AI 是 Figma 内置的 AI 功能集，包括 AI 生成设计、自动布局、内容填充等，直接嵌入设计师日常工作流。",
+    "description_en": "Figma AI is Figma's built-in AI feature set including AI generation, auto-layout, content fill, integrated directly into daily design workflows.",
+    "category": "ui-design",
+    "tags": [
+      "paid",
+      "free-trial",
+      "featured"
+    ],
+    "features": [
+      {
+        "title": "AI生成",
+        "description": "文字描述生成UI元素和页面"
+      },
+      {
+        "title": "智能填充",
+        "description": "自动生成真实内容替代占位文本"
+      },
+      {
+        "title": "图层重命名",
+        "description": "AI自动语义化命名图层"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "AI Generation",
+        "description": "Generate UI elements from text descriptions"
+      },
+      {
+        "title": "Smart Fill",
+        "description": "Auto-generate real content to replace placeholders"
+      },
+      {
+        "title": "Layer Rename",
+        "description": "AI semantic layer naming"
+      }
+    ],
+    "pros": [
+      "原生集成Figma",
+      "工作流无缝",
+      "更新快"
+    ],
+    "pros_en": [
+      "Native Figma integration",
+      "Seamless workflow",
+      "Fast updates"
+    ],
+    "cons": [
+      "需Figma订阅",
+      "AI功能有限"
+    ],
+    "cons_en": [
+      "Requires Figma subscription",
+      "Limited AI features"
+    ],
+    "pricing": {
+      "free": "",
+      "paid": "含在Figma订阅中",
+      "enterprise": "企业版"
+    },
+    "pricing_en": {
+      "free": "",
+      "paid": "Included in Figma sub",
+      "enterprise": "Enterprise"
+    },
+    "website_url": "https://www.figma.com/ai",
+    "alternatives": [
+      "galileo-ai",
+      "uizard"
+    ],
+    "rating": 4.3,
+    "is_featured": true,
+    "is_new": false,
+    "created_at": "2026-07-01",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "mastergo-ai",
+    "name": "MasterGo AI",
+    "name_en": "MasterGo AI",
+    "logo": "/logos/mastergo-ai.svg",
+    "tagline": "企业级AI设计系统",
+    "tagline_en": "Enterprise AI design system",
+    "description": "MasterGo AI 是国内企业级设计协作平台，集成 AI 能力支持界面生成、设计系统管理和团队协作。",
+    "description_en": "MasterGo AI is a Chinese enterprise design platform with integrated AI for interface generation, design system management, and team collaboration.",
+    "category": "ui-design",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "界面生成",
+        "description": "AI辅助快速生成界面"
+      },
+      {
+        "title": "设计系统",
+        "description": "企业级设计系统管理"
+      },
+      {
+        "title": "团队协作",
+        "description": "多人实时协作"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "UI Generation",
+        "description": "AI-assisted rapid interface generation"
+      },
+      {
+        "title": "Design System",
+        "description": "Enterprise design system management"
+      },
+      {
+        "title": "Collaboration",
+        "description": "Real-time team collaboration"
+      }
+    ],
+    "pros": [
+      "国内访问快",
+      "免费可用",
+      "中文友好"
+    ],
+    "pros_en": [
+      "Fast in China",
+      "Free tier",
+      "Chinese-friendly"
+    ],
+    "cons": [
+      "国际影响力有限",
+      "AI功能正在完善"
+    ],
+    "cons_en": [
+      "Limited global presence",
+      "AI features evolving"
+    ],
+    "pricing": {
+      "free": "免费版",
+      "paid": "团队版 ¥199/月",
+      "enterprise": "企业定制"
+    },
+    "pricing_en": {
+      "free": "Free",
+      "paid": "Team ¥199/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://mastergo.com",
+    "alternatives": [],
+    "rating": 4.1,
+    "is_featured": false,
+    "is_new": false,
+    "created_at": "2026-07-05",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft",
+    "name_en": "Recraft",
+    "logo": "/logos/recraft.svg",
+    "tagline": "SVG矢量艺术生成",
+    "tagline_en": "SVG vector art generation",
+    "description": "Recraft 是一款 AI 矢量图形生成工具，专为品牌和设计资产创作优化，支持生成可编辑的 SVG 矢量图。",
+    "description_en": "Recraft generates AI vector graphics optimized for brand and design asset creation, supporting editable SVG output.",
+    "category": "ui-design",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "SVG生成",
+        "description": "AI生成可编辑矢量图形"
+      },
+      {
+        "title": "风格一致",
+        "description": "保持品牌风格统一"
+      },
+      {
+        "title": "多种导出",
+        "description": "支持SVG/PNG/PDF等格式"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "SVG Generation",
+        "description": "AI-generated editable vector graphics"
+      },
+      {
+        "title": "Style Consistency",
+        "description": "Maintain brand style consistency"
+      },
+      {
+        "title": "Multi-format",
+        "description": "Export SVG/PNG/PDF formats"
+      }
+    ],
+    "pros": [
+      "输出可编辑",
+      "免费额度多",
+      "风格控制好"
+    ],
+    "pros_en": [
+      "Editable output",
+      "Generous free tier",
+      "Good style control"
+    ],
+    "cons": [
+      "生成速度较慢",
+      "复杂图形质量不稳定"
+    ],
+    "cons_en": [
+      "Slower generation",
+      "Inconsistent with complex graphics"
+    ],
+    "pricing": {
+      "free": "每日50次免费",
+      "paid": "$10/月起",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "50 free/day",
+      "paid": "From $10/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://www.recraft.ai",
+    "alternatives": [],
+    "rating": 4.4,
+    "is_featured": true,
+    "is_new": true,
+    "created_at": "2026-07-18",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "name_en": "Adobe Firefly",
+    "logo": "/logos/adobe-firefly.svg",
+    "tagline": "Adobe创意AI生成工具",
+    "tagline_en": "Adobe creative AI generation",
+    "description": "Adobe Firefly 是 Adobe 的创意生成 AI，支持文字生成图像、矢量重着色、生成式填充等功能，与 Creative Cloud 深度集成。",
+    "description_en": "Adobe Firefly is Adobe's creative generative AI supporting text-to-image, vector recoloring, generative fill, deeply integrated with Creative Cloud.",
+    "category": "ui-design",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "文字生图",
+        "description": "自然语言描述生成图像"
+      },
+      {
+        "title": "生成式填充",
+        "description": "智能扩展和填充图像"
+      },
+      {
+        "title": "矢量着色",
+        "description": "AI驱动的矢量图形配色"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Text to Image",
+        "description": "Generate images from natural language"
+      },
+      {
+        "title": "Generative Fill",
+        "description": "Smart image expansion and fill"
+      },
+      {
+        "title": "Vector Recolor",
+        "description": "AI-driven vector color schemes"
+      }
+    ],
+    "pros": [
+      "Adobe生态集成",
+      "商用安全",
+      "质量高"
+    ],
+    "pros_en": [
+      "Adobe ecosystem",
+      "Commercial safe",
+      "High quality"
+    ],
+    "cons": [
+      "需要Creative Cloud",
+      "中文支持一般"
+    ],
+    "cons_en": [
+      "Requires Creative Cloud",
+      "Limited Chinese support"
+    ],
+    "pricing": {
+      "free": "免费额度（每月25点）",
+      "paid": "$4.99/月 Premium",
+      "enterprise": "企业版"
+    },
+    "pricing_en": {
+      "free": "Free (25 credits/mo)",
+      "paid": "$4.99/mo Premium",
+      "enterprise": "Enterprise"
+    },
+    "website_url": "https://firefly.adobe.com",
+    "alternatives": [],
+    "rating": 4.5,
+    "is_featured": true,
+    "is_new": false,
+    "created_at": "2026-07-03",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney v7",
+    "name_en": "Midjourney v7",
+    "logo": "/logos/midjourney.svg",
+    "tagline": "概念可视化与艺术生成",
+    "tagline_en": "Concept visualization and art generation",
+    "description": "Midjourney 是最主流的 AI 图像生成工具，设计师用它进行概念探索、情绪板制作和视觉风格实验。",
+    "description_en": "Midjourney is the leading AI image generation tool designers use for concept exploration, mood board creation, and visual style experiments.",
+    "category": "ui-design",
+    "tags": [
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "高质量出图",
+        "description": "目前图片质量最高的AI工具之一"
+      },
+      {
+        "title": "风格多样",
+        "description": "支持多种艺术风格和参数调优"
+      },
+      {
+        "title": "概念探索",
+        "description": "快速可视化设计想法"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "High Quality",
+        "description": "Among the highest quality AI image tools"
+      },
+      {
+        "title": "Style Variety",
+        "description": "Multiple art styles and parameter tuning"
+      },
+      {
+        "title": "Concept Exploration",
+        "description": "Quickly visualize design ideas"
+      }
+    ],
+    "pros": [
+      "图片质量极高",
+      "社区活跃",
+      "风格控制精细"
+    ],
+    "pros_en": [
+      "Exceptional image quality",
+      "Active community",
+      "Fine style control"
+    ],
+    "cons": [
+      "仅有付费版",
+      "需Discord使用",
+      "无中文界面"
+    ],
+    "cons_en": [
+      "Paid only",
+      "Requires Discord",
+      "No Chinese UI"
+    ],
+    "pricing": {
+      "free": "",
+      "paid": "$10/月起",
+      "enterprise": "$60/月 Pro"
+    },
+    "pricing_en": {
+      "free": "",
+      "paid": "From $10/mo",
+      "enterprise": "$60/mo Pro"
+    },
+    "website_url": "https://www.midjourney.com",
+    "alternatives": [
+      "adobe-firefly"
+    ],
+    "rating": 4.8,
+    "is_featured": true,
+    "is_new": false,
+    "created_at": "2026-07-01",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "galileo-ai",
+    "name": "Galileo AI",
+    "name_en": "Galileo AI",
+    "logo": "/logos/galileo-ai.svg",
+    "tagline": "从文字描述生成高保真UI设计稿",
+    "tagline_en": "Generate high-fidelity UI designs from text descriptions",
+    "description": "Galileo AI 是一款基于 AI 的 UI 生成工具，输入自然语言描述即可快速生成高保真设计稿。适合产品经理和设计师快速验证想法。",
+    "description_en": "Galileo AI generates high-fidelity UI designs from natural language prompts. Great for PMs and designers to quickly validate ideas.",
+    "category": "prototyping",
+    "tags": [
+      "free-trial",
+      "paid",
+      "featured"
+    ],
+    "features": [
+      {
+        "title": "文字转UI",
+        "description": "支持自然语言描述生成完整界面"
+      },
+      {
+        "title": "组件库",
+        "description": "内置丰富的UI组件"
+      },
+      {
+        "title": "导出",
+        "description": "支持导出到Figma"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Text to UI",
+        "description": "Generate full interfaces from natural language"
+      },
+      {
+        "title": "Component Library",
+        "description": "Rich built-in UI components"
+      },
+      {
+        "title": "Export",
+        "description": "Export to Figma"
+      }
+    ],
+    "pros": [
+      "生成速度快",
+      "UI质量高",
+      "易上手"
+    ],
+    "pros_en": [
+      "Fast generation",
+      "High UI quality",
+      "Easy to learn"
+    ],
+    "cons": [
+      "免费额度有限",
+      "定制化不足"
+    ],
+    "cons_en": [
+      "Limited free quota",
+      "Limited customization"
+    ],
+    "pricing": {
+      "free": "每月5次免费",
+      "paid": "$16/月无限",
+      "enterprise": "按需定制"
+    },
+    "pricing_en": {
+      "free": "5 free/month",
+      "paid": "$16/mo unlimited",
+      "enterprise": "Custom pricing"
+    },
+    "website_url": "https://www.usegalileo.ai",
+    "alternatives": [
+      "uizard",
+      "framer-ai"
+    ],
+    "rating": 4.5,
+    "is_featured": true,
+    "is_new": false,
+    "created_at": "2026-07-01",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "name_en": "Uizard",
+    "logo": "/logos/uizard.svg",
+    "tagline": "草图/截图一键转原型",
+    "tagline_en": "Turn sketches/screenshots into prototypes",
+    "description": "Uizard 可以将手绘草图或截图自动转换为可编辑的数字原型，支持 AI 生成主题和组件。",
+    "description_en": "Uizard auto-converts hand-drawn sketches or screenshots into editable digital prototypes with AI-generated themes and components.",
+    "category": "prototyping",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "草图识别",
+        "description": "上传手绘草图自动转UI"
+      },
+      {
+        "title": "截图转原型",
+        "description": "上传竞品截图自动生成可编辑版本"
+      },
+      {
+        "title": "主题生成",
+        "description": "AI自动生成配色和样式"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Sketch Recognition",
+        "description": "Upload sketches, auto-convert to UI"
+      },
+      {
+        "title": "Screenshot to Proto",
+        "description": "Upload screenshots, generate editable versions"
+      },
+      {
+        "title": "Theme Generation",
+        "description": "AI auto-generates color schemes and styles"
+      }
+    ],
+    "pros": [
+      "草图识别出色",
+      "上手极快"
+    ],
+    "pros_en": [
+      "Excellent sketch recognition",
+      "Very easy to learn"
+    ],
+    "cons": [
+      "高保真输出有限",
+      "复杂交互支持弱"
+    ],
+    "cons_en": [
+      "Limited high-fidelity output",
+      "Weak complex interaction support"
+    ],
+    "pricing": {
+      "free": "免费版（有限项目）",
+      "paid": "$12/月起",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "Free (limited projects)",
+      "paid": "From $12/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://uizard.io",
+    "alternatives": [
+      "galileo-ai",
+      "framer-ai"
+    ],
+    "rating": 4.3,
+    "is_featured": true,
+    "is_new": false,
+    "created_at": "2026-07-02",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "framer-ai",
+    "name": "Framer AI",
+    "name_en": "Framer AI",
+    "logo": "/logos/framer-ai.svg",
+    "tagline": "AI交互原型与网站生成",
+    "tagline_en": "AI interactive prototype and website generation",
+    "description": "Framer AI 可以根据文字描述快速生成交互式网站和原型，内置强大的动画和交互能力。",
+    "description_en": "Framer AI quickly generates interactive websites and prototypes from text descriptions with powerful built-in animation and interaction capabilities.",
+    "category": "prototyping",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "AI建站",
+        "description": "文字描述生成完整网站"
+      },
+      {
+        "title": "交互动效",
+        "description": "强大的动画和交互编辑器"
+      },
+      {
+        "title": "CMS集成",
+        "description": "内置内容管理系统"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "AI Site Builder",
+        "description": "Generate complete sites from text"
+      },
+      {
+        "title": "Interactive Animation",
+        "description": "Powerful animation and interaction editor"
+      },
+      {
+        "title": "CMS",
+        "description": "Built-in content management"
+      }
+    ],
+    "pros": [
+      "交互能力强",
+      "可发布上线",
+      "免费版可用"
+    ],
+    "pros_en": [
+      "Strong interactivity",
+      "Can publish live",
+      "Free tier available"
+    ],
+    "cons": [
+      "学习曲线陡",
+      "SEO不如传统方案"
+    ],
+    "cons_en": [
+      "Steep learning curve",
+      "SEO weaker than traditional"
+    ],
+    "pricing": {
+      "free": "免费版",
+      "paid": "$5/月起",
+      "enterprise": "$25/月 Pro"
+    },
+    "pricing_en": {
+      "free": "Free",
+      "paid": "From $5/mo",
+      "enterprise": "$25/mo Pro"
+    },
+    "website_url": "https://www.framer.com/ai",
+    "alternatives": [
+      "galileo-ai",
+      "uizard"
+    ],
+    "rating": 4.4,
+    "is_featured": false,
+    "is_new": false,
+    "created_at": "2026-07-02",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "figma-make",
+    "name": "Figma Make",
+    "name_en": "Figma Make",
+    "logo": "/logos/figma-make.svg",
+    "tagline": "对话式原型生成",
+    "tagline_en": "Conversational prototype generation",
+    "description": "Figma Make 是 Figma 推出的对话式 AI 原型生成功能，通过与 AI 对话逐步创建和完善设计原型。",
+    "description_en": "Figma Make is Figma's conversational AI prototype feature that creates and refines design prototypes through AI dialogue.",
+    "category": "prototyping",
+    "tags": [
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "对话生成",
+        "description": "通过聊天方式创建原型"
+      },
+      {
+        "title": "迭代优化",
+        "description": "逐步对话完善设计"
+      },
+      {
+        "title": "Figma集成",
+        "description": "直接在Figma中使用"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Chat Generation",
+        "description": "Create prototypes through chat"
+      },
+      {
+        "title": "Iterative Refinement",
+        "description": "Refine designs through dialogue"
+      },
+      {
+        "title": "Figma Integration",
+        "description": "Use directly in Figma"
+      }
+    ],
+    "pros": [
+      "交互方式自然",
+      "Figma原生",
+      "持续迭代"
+    ],
+    "pros_en": [
+      "Natural interaction",
+      "Figma native",
+      "Continuous iteration"
+    ],
+    "cons": [
+      "仅限Figma付费用户",
+      "仍处于早期"
+    ],
+    "cons_en": [
+      "Figma paid users only",
+      "Still early stage"
+    ],
+    "pricing": {
+      "free": "",
+      "paid": "含在Figma订阅",
+      "enterprise": "企业版"
+    },
+    "pricing_en": {
+      "free": "",
+      "paid": "In Figma subscription",
+      "enterprise": "Enterprise"
+    },
+    "website_url": "https://www.figma.com/make",
+    "alternatives": [
+      "galileo-ai"
+    ],
+    "rating": 4,
+    "is_featured": false,
+    "is_new": true,
+    "created_at": "2026-07-19",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "anima-ai",
+    "name": "Anima AI",
+    "name_en": "Anima AI",
+    "logo": "/logos/anima-ai.svg",
+    "tagline": "Figma设计稿一键转React/Vue代码",
+    "tagline_en": "Turn Figma designs into React/Vue code",
+    "description": "Anima AI 可以将 Figma 设计稿自动转换为 React、Vue 或 HTML 代码，大幅减少前端开发时间。",
+    "description_en": "Anima AI auto-converts Figma designs to React, Vue, or HTML code, dramatically reducing frontend development time.",
+    "category": "code",
+    "tags": [
+      "free-trial",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "Figma转代码",
+        "description": "设计稿自动生成前端代码"
+      },
+      {
+        "title": "多框架支持",
+        "description": "React/Vue/HTML/Next.js"
+      },
+      {
+        "title": "响应式",
+        "description": "自动适配不同屏幕尺寸"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Figma to Code",
+        "description": "Auto-generate frontend code from designs"
+      },
+      {
+        "title": "Multi-framework",
+        "description": "React/Vue/HTML/Next.js"
+      },
+      {
+        "title": "Responsive",
+        "description": "Auto-adapt to screen sizes"
+      }
+    ],
+    "pros": [
+      "代码质量较高",
+      "框架支持全",
+      "更新快"
+    ],
+    "pros_en": [
+      "Good code quality",
+      "Full framework support",
+      "Fast updates"
+    ],
+    "cons": [
+      "复杂组件转换不佳",
+      "价格偏高"
+    ],
+    "cons_en": [
+      "Poor with complex components",
+      "Higher price"
+    ],
+    "pricing": {
+      "free": "",
+      "paid": "$39/月起",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "",
+      "paid": "From $39/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://www.animaapp.com",
+    "alternatives": [
+      "codify-ai",
+      "pixso-ai"
+    ],
+    "rating": 4.2,
+    "is_featured": false,
+    "is_new": false,
+    "created_at": "2026-07-04",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "codify-ai",
+    "name": "Codify AI",
+    "name_en": "Codify AI",
+    "logo": "/logos/codify-ai.svg",
+    "tagline": "多格式AI设计稿转代码",
+    "tagline_en": "Multi-format AI design-to-code",
+    "description": "Codify AI 支持将设计稿转换为多种前端框架代码，并提供可视化编辑器和组件库。",
+    "description_en": "Codify AI converts designs to multiple frontend framework codes with a visual editor and component library.",
+    "category": "code",
+    "tags": [
+      "paid",
+      "free-trial"
+    ],
+    "features": [
+      {
+        "title": "多格式输出",
+        "description": "支持React/Vue/Svelte等"
+      },
+      {
+        "title": "可视化编辑",
+        "description": "所见即所得代码编辑器"
+      },
+      {
+        "title": "组件库",
+        "description": "内置常用组件模板"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Multi-format Output",
+        "description": "React/Vue/Svelte support"
+      },
+      {
+        "title": "Visual Editor",
+        "description": "WYSIWYG code editor"
+      },
+      {
+        "title": "Component Library",
+        "description": "Built-in common component templates"
+      }
+    ],
+    "pros": [
+      "格式多样",
+      "有可视化编辑器"
+    ],
+    "pros_en": [
+      "Format variety",
+      "Visual editor"
+    ],
+    "cons": [
+      "价格较高",
+      "中文支持一般"
+    ],
+    "cons_en": [
+      "Higher price",
+      "Limited Chinese support"
+    ],
+    "pricing": {
+      "free": "",
+      "paid": "$29/月起",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "",
+      "paid": "From $29/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://codifyai.com",
+    "alternatives": [
+      "anima-ai"
+    ],
+    "rating": 4,
+    "is_featured": false,
+    "is_new": true,
+    "created_at": "2026-07-17",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "pixso-ai",
+    "name": "Pixso AI",
+    "name_en": "Pixso AI",
+    "logo": "/logos/pixso-ai.svg",
+    "tagline": "国产设计协作+AI转代码",
+    "tagline_en": "Chinese design collaboration + AI to code",
+    "description": "Pixso 是国内一站式设计协作平台，集成 AI 设计稿转代码功能，支持前端、iOS、Android 多端输出。",
+    "description_en": "Pixso is a Chinese all-in-one design collaboration platform with AI design-to-code for web, iOS, and Android.",
+    "category": "code",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "设计协作",
+        "description": "完整的在线设计工具"
+      },
+      {
+        "title": "AI转代码",
+        "description": "设计稿自动生成多端代码"
+      },
+      {
+        "title": "标注切图",
+        "description": "自动标注和资源导出"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Design Collaboration",
+        "description": "Full online design tool"
+      },
+      {
+        "title": "AI to Code",
+        "description": "Auto-generate multi-platform code"
+      },
+      {
+        "title": "Spec & Export",
+        "description": "Auto spec and asset export"
+      }
+    ],
+    "pros": [
+      "国内访问快",
+      "免费版功能全",
+      "协作功能好"
+    ],
+    "pros_en": [
+      "Fast in China",
+      "Free tier comprehensive",
+      "Good collaboration"
+    ],
+    "cons": [
+      "国际化弱",
+      "AI功能待完善"
+    ],
+    "cons_en": [
+      "Weak internationalization",
+      "AI features evolving"
+    ],
+    "pricing": {
+      "free": "免费版",
+      "paid": "团队版 ¥199/年",
+      "enterprise": "企业版"
+    },
+    "pricing_en": {
+      "free": "Free",
+      "paid": "Team ¥199/yr",
+      "enterprise": "Enterprise"
+    },
+    "website_url": "https://pixso.cn",
+    "alternatives": [
+      "anima-ai"
+    ],
+    "rating": 4.1,
+    "is_featured": false,
+    "is_new": false,
+    "created_at": "2026-07-05",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "name_en": "v0 by Vercel",
+    "logo": "/logos/v0.svg",
+    "tagline": "Vercel出品的AI UI生成工具",
+    "tagline_en": "AI UI generation by Vercel",
+    "description": "v0 是 Vercel 推出的 AI UI 生成工具，通过自然语言描述即可生成基于 shadcn/ui 的 React 组件代码。",
+    "description_en": "v0 by Vercel generates React component code with shadcn/ui from natural language descriptions.",
+    "category": "code",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "文字生成UI",
+        "description": "自然语言描述直接生成组件"
+      },
+      {
+        "title": "shadcn/ui",
+        "description": "基于开源组件库"
+      },
+      {
+        "title": "直接复制代码",
+        "description": "一键复制到项目中"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Text to UI",
+        "description": "Generate components from natural language"
+      },
+      {
+        "title": "shadcn/ui",
+        "description": "Based on open-source component library"
+      },
+      {
+        "title": "Copy Code",
+        "description": "One-click copy to project"
+      }
+    ],
+    "pros": [
+      "代码质量高",
+      "开源组件",
+      "免费使用"
+    ],
+    "pros_en": [
+      "High code quality",
+      "Open-source components",
+      "Free to use"
+    ],
+    "cons": [
+      "仅支持React",
+      "需Vercel账号"
+    ],
+    "cons_en": [
+      "React only",
+      "Requires Vercel account"
+    ],
+    "pricing": {
+      "free": "免费版",
+      "paid": "$20/月",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "Free",
+      "paid": "$20/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://v0.dev",
+    "alternatives": [
+      "anima-ai",
+      "codify-ai"
+    ],
+    "rating": 4.6,
+    "is_featured": true,
+    "is_new": false,
+    "created_at": "2026-07-01",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "onbeacon-ai",
+    "name": "onbeacon AI",
+    "name_en": "onbeacon AI",
+    "logo": "/logos/onbeacon-ai.svg",
+    "tagline": "UX体验自动评估",
+    "tagline_en": "Automated UX experience evaluation",
+    "description": "onbeacon AI 可以自动对网页和应用进行 UX 体验评估，生成可用性报告和改进建议。",
+    "description_en": "onbeacon AI auto-evaluates UX experience for websites and apps, generating usability reports and improvement suggestions.",
+    "category": "review",
+    "tags": [
+      "paid",
+      "free-trial"
+    ],
+    "features": [
+      {
+        "title": "自动评估",
+        "description": "AI自动检测UX问题"
+      },
+      {
+        "title": "报告生成",
+        "description": "详细的可用性分析报告"
+      },
+      {
+        "title": "改进建议",
+        "description": "基于最佳实践的优化方案"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Auto Evaluation",
+        "description": "AI auto-detects UX issues"
+      },
+      {
+        "title": "Report Generation",
+        "description": "Detailed usability analysis reports"
+      },
+      {
+        "title": "Suggestions",
+        "description": "Optimization based on best practices"
+      }
+    ],
+    "pros": [
+      "评估自动化",
+      "报告详尽"
+    ],
+    "pros_en": [
+      "Automated evaluation",
+      "Detailed reports"
+    ],
+    "cons": [
+      "价格较高",
+      "偏向Web端"
+    ],
+    "cons_en": [
+      "Higher price",
+      "Web-focused"
+    ],
+    "pricing": {
+      "free": "",
+      "paid": "$49/月起",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "",
+      "paid": "From $49/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://onbeacon.ai",
+    "alternatives": [
+      "stark"
+    ],
+    "rating": 4,
+    "is_featured": false,
+    "is_new": true,
+    "created_at": "2026-07-16",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "stark",
+    "name": "Stark",
+    "name_en": "Stark",
+    "logo": "/logos/stark.svg",
+    "tagline": "设计系统与可访问性检测",
+    "tagline_en": "Design system & accessibility checker",
+    "description": "Stark 是集成在 Figma 中的可访问性检测工具，帮助设计师确保设计符合 WCAG 无障碍标准。",
+    "description_en": "Stark is a Figma-integrated accessibility checker that helps designers ensure WCAG compliance in their designs.",
+    "category": "review",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "对比度检测",
+        "description": "自动检测颜色对比度"
+      },
+      {
+        "title": "色盲模拟",
+        "description": "模拟多种色觉障碍"
+      },
+      {
+        "title": "焦点顺序",
+        "description": "检查键盘导航顺序"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Contrast Check",
+        "description": "Auto-check color contrast"
+      },
+      {
+        "title": "Color Blind Sim",
+        "description": "Simulate various color vision deficiencies"
+      },
+      {
+        "title": "Focus Order",
+        "description": "Check keyboard navigation order"
+      }
+    ],
+    "pros": [
+      "Figma原生集成",
+      "免费版功能全面",
+      "标准权威"
+    ],
+    "pros_en": [
+      "Native Figma integration",
+      "Comprehensive free tier",
+      "Authoritative standards"
+    ],
+    "cons": [
+      "仅限Figma",
+      "高级功能付费"
+    ],
+    "cons_en": [
+      "Figma only",
+      "Premium features paid"
+    ],
+    "pricing": {
+      "free": "免费版",
+      "paid": "$15/月起",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "Free",
+      "paid": "From $15/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://www.getstark.co",
+    "alternatives": [
+      "onbeacon-ai"
+    ],
+    "rating": 4.4,
+    "is_featured": true,
+    "is_new": false,
+    "created_at": "2026-07-03",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "tokens-studio",
+    "name": "Tokens Studio",
+    "name_en": "Tokens Studio",
+    "logo": "/logos/tokens-studio.svg",
+    "tagline": "Figma设计令牌管理",
+    "tagline_en": "Figma design token management",
+    "description": "Tokens Studio 是 Figma 中管理设计令牌的插件，支持将设计变量同步到代码仓库。",
+    "description_en": "Tokens Studio manages design tokens in Figma, syncing design variables to code repositories.",
+    "category": "design-system",
+    "tags": [
+      "free",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "令牌管理",
+        "description": "可视化编辑设计令牌"
+      },
+      {
+        "title": "多平台同步",
+        "description": "同步到GitHub/GitLab等"
+      },
+      {
+        "title": "主题切换",
+        "description": "管理多套主题和模式"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Token Management",
+        "description": "Visual design token editing"
+      },
+      {
+        "title": "Multi-platform Sync",
+        "description": "Sync to GitHub/GitLab etc."
+      },
+      {
+        "title": "Theme Switching",
+        "description": "Manage multiple themes and modes"
+      }
+    ],
+    "pros": [
+      "设计开发协同",
+      "开源免费版",
+      "社区活跃"
+    ],
+    "pros_en": [
+      "Design-dev collaboration",
+      "Open-source free tier",
+      "Active community"
+    ],
+    "cons": [
+      "学习曲线陡",
+      "仅限Figma"
+    ],
+    "cons_en": [
+      "Steep learning curve",
+      "Figma only"
+    ],
+    "pricing": {
+      "free": "免费版",
+      "paid": "$6/月 Pro",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "Free",
+      "paid": "$6/mo Pro",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://tokens.studio",
+    "alternatives": [],
+    "rating": 4.3,
+    "is_featured": false,
+    "is_new": false,
+    "created_at": "2026-07-05",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "name_en": "Penpot",
+    "logo": "/logos/penpot.svg",
+    "tagline": "开源设计平台",
+    "tagline_en": "Open-source design platform",
+    "description": "Penpot 是开源的设计和原型平台，支持 SVG 原生格式，适合注重开源和隐私的设计团队。",
+    "description_en": "Penpot is an open-source design and prototyping platform with native SVG support, ideal for teams prioritizing open-source and privacy.",
+    "category": "design-system",
+    "tags": [
+      "free",
+      "open-source"
+    ],
+    "features": [
+      {
+        "title": "开源自由",
+        "description": "完全开源，可自托管"
+      },
+      {
+        "title": "SVG原生",
+        "description": "原生SVG格式，代码友好"
+      },
+      {
+        "title": "协作",
+        "description": "多人实时协作"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Open Source",
+        "description": "Fully open-source, self-hostable"
+      },
+      {
+        "title": "SVG Native",
+        "description": "Native SVG format, code-friendly"
+      },
+      {
+        "title": "Collaboration",
+        "description": "Real-time multi-user collaboration"
+      }
+    ],
+    "pros": [
+      "完全开源",
+      "可自托管",
+      "免费"
+    ],
+    "pros_en": [
+      "Fully open-source",
+      "Self-hostable",
+      "Free"
+    ],
+    "cons": [
+      "生态较小",
+      "性能待优化"
+    ],
+    "cons_en": [
+      "Small ecosystem",
+      "Performance needs work"
+    ],
+    "pricing": {
+      "free": "完全免费",
+      "paid": "",
+      "enterprise": ""
+    },
+    "pricing_en": {
+      "free": "Completely free",
+      "paid": "",
+      "enterprise": ""
+    },
+    "website_url": "https://penpot.app",
+    "alternatives": [],
+    "rating": 4.1,
+    "is_featured": false,
+    "is_new": false,
+    "created_at": "2026-07-06",
+    "updated_at": "2026-07-20"
+  },
+  {
+    "id": "magician",
+    "name": "Magician",
+    "name_en": "Magician",
+    "logo": "/logos/magician.svg",
+    "tagline": "Figma AI设计工具箱",
+    "tagline_en": "Figma AI design toolkit",
+    "description": "Magician 是 Figma 中的 AI 设计工具插件，提供自动生成图标、文案、图片等设计资源的能力。",
+    "description_en": "Magician is an AI design toolkit Figma plugin that auto-generates icons, copy, images, and other design assets.",
+    "category": "design-system",
+    "tags": [
+      "free-trial",
+      "paid"
+    ],
+    "features": [
+      {
+        "title": "图标生成",
+        "description": "AI生成自定义图标"
+      },
+      {
+        "title": "文案撰写",
+        "description": "自动生成UI文案"
+      },
+      {
+        "title": "图片编辑",
+        "description": "AI图片处理和生成"
+      }
+    ],
+    "features_en": [
+      {
+        "title": "Icon Generation",
+        "description": "AI-generated custom icons"
+      },
+      {
+        "title": "Copy Writing",
+        "description": "Auto-generate UI copy"
+      },
+      {
+        "title": "Image Editing",
+        "description": "AI image processing and generation"
+      }
+    ],
+    "pros": [
+      "Figma集成好",
+      "省时高效"
+    ],
+    "pros_en": [
+      "Good Figma integration",
+      "Time-saving"
+    ],
+    "cons": [
+      "需Figma付费",
+      "功能较为零散"
+    ],
+    "cons_en": [
+      "Requires Figma paid",
+      "Features fragmented"
+    ],
+    "pricing": {
+      "free": "",
+      "paid": "$9/月起",
+      "enterprise": "定制"
+    },
+    "pricing_en": {
+      "free": "",
+      "paid": "From $9/mo",
+      "enterprise": "Custom"
+    },
+    "website_url": "https://magician.design",
+    "alternatives": [],
+    "rating": 4,
+    "is_featured": false,
+    "is_new": false,
+    "created_at": "2026-07-07",
+    "updated_at": "2026-07-20"
+  }
 ]
