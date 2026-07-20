@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Category } from "@/lib/types";
 import { getToolsByCategory } from "@/lib/data";
+import GlassIcon from "@/components/shared/GlassIcon";
 
 export default function CategoryGrid({
   categories,
@@ -19,7 +20,7 @@ export default function CategoryGrid({
             href={`/${locale}/tools/category/${cat.id}`}
             className="flex items-start gap-4 p-5 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-elevated card-hover bg-white dark:bg-gray-900"
           >
-            <img src={cat.icon} alt={cat.name} className="w-14 h-14 rounded-2xl flex-shrink-0" />
+            <GlassIcon category={cat.id} size={64} />
             <div>
               <h3 className="font-semibold text-gray-900 dark:text-white">
                 {cat.name}
