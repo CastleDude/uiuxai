@@ -26,7 +26,7 @@ export default function ToolCard({
           <img
             src={tool.logo}
             alt={tool.name}
-            className="relative w-12 h-12 rounded-2xl object-cover bg-gray-50 dark:bg-gray-800"
+            className="relative w-12 h-12 rounded-2xl object-contain bg-gray-50 dark:bg-gray-800 p-1"
             onError={(e) => {
               (e.target as HTMLImageElement).src = "/logos/placeholder.svg";
             }}
