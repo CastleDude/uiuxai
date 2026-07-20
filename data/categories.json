@@ -1,0 +1,8 @@
+[
+  {"id":"inspiration","name":"灵感与调研","name_en":"Inspiration & Research","icon":"🧠","description":"竞品分析、用户反馈分析、趋势洞察","description_en":"Competitive analysis, user feedback, trend insights","sort_order":1},
+  {"id":"ui-design","name":"视觉与UI设计","name_en":"Visual & UI Design","icon":"🎨","description":"AI辅助设计、界面生成","description_en":"AI-assisted design, interface generation","sort_order":2},
+  {"id":"prototyping","name":"原型与交互","name_en":"Prototyping & Interaction","icon":"🧩","description":"快速原型、高保真生成","description_en":"Rapid prototyping, high-fidelity generation","sort_order":3},
+  {"id":"code","name":"设计稿转代码","name_en":"Design to Code","icon":"💻","description":"代码生成、设计交付","description_en":"Code generation, design handoff","sort_order":4},
+  {"id":"review","name":"设计走查与评审","name_en":"Design Review & QA","icon":"✅","description":"可用性检测、设计规范检查","description_en":"Usability testing, design spec checks","sort_order":5},
+  {"id":"design-system","name":"设计系统与规范","name_en":"Design Systems & Tokens","icon":"📦","description":"设计令牌、组件库管理","description_en":"Design tokens, component library management","sort_order":6}
+]

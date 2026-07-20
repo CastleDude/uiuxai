@@ -1,0 +1,18 @@
+[
+  {
+    "id": "galileo-ai", "name": "Galileo AI", "name_en": "Galileo AI",
+    "logo": "/logos/galileo.png", "tagline": "从文字描述生成高保真UI设计稿", "tagline_en": "Generate high-fidelity UI designs from text descriptions",
+    "description": "Galileo AI 是一款基于 AI 的 UI 生成工具，输入自然语言描述即可快速生成高保真设计稿。适合产品经理和设计师快速验证想法。",
+    "description_en": "Galileo AI generates high-fidelity UI designs from natural language prompts. Great for PMs and designers to quickly validate ideas.",
+    "category": "prototyping", "tags": ["free-trial", "paid", "featured"],
+    "features": [{"title":"文字转UI","description":"支持自然语言描述生成完整界面"},{"title":"组件库","description":"内置丰富的UI组件"},{"title":"导出","description":"支持导出到Figma"}],
+    "features_en": [{"title":"Text to UI","description":"Generate full interfaces from natural language"},{"title":"Component Library","description":"Rich built-in UI components"},{"title":"Export","description":"Export to Figma"}],
+    "pros": ["生成速度快","UI质量高","易上手"], "pros_en": ["Fast generation","High UI quality","Easy to learn"],
+    "cons": ["免费额度有限","定制化不足"], "cons_en": ["Limited free quota","Limited customization"],
+    "pricing": {"free":"每月5次免费","paid":"$16/月无限","enterprise":"按需定制"},
+    "pricing_en": {"free":"5 free/month","paid":"$16/mo unlimited","enterprise":"Custom pricing"},
+    "website_url": "https://www.usegalileo.ai","alternatives": ["uizard","framer-ai"],
+    "rating": 4.5, "is_featured": true, "is_new": false,
+    "created_at":"2026-07-01","updated_at":"2026-07-20"
+  }
+]
